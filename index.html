@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Graphic WALA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+    header, footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #111827;
+      color: white;
+    }
+    .section {
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    .portfolio img {
+      width: 100%;
+      max-width: 300px;
+      margin: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1rem;
+      background-color: #10b981;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
+    .button:hover {
+      transform: scale(1.05);
+    }
+    .payment-section {
+      background-color: #f3f4f6;
+      padding: 3rem 1rem;
+    }
+    .payment-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    .portfolio {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <header data-aos="fade-down">
+    <h1>Graphic WALA</h1>
+    <p>Creative Designs. Clear Impact.</p>
+  </header>
+
+  <section class="section" data-aos="fade-up">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+      <img src="1000000420.jpg" alt="Design Sample 1">
+      <img src="1000017752.jpg" alt="Design Sample 2">
+    </div>
+  </section>
+
+  <section class="payment-section" id="payment" data-aos="zoom-in">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6">Make a Payment</h2>
+    <p class="text-lg text-gray-700 mb-4">Pay securely via UPI:</p>
+    <div class="payment-card">
+      <h3 class="text-xl font-semibold text-gray-900">UPI ID:</h3>
+      <p class="text-lg font-mono text-blue-600 mt-2">9310079025@fam</p>
+      <p class="text-gray-600 mt-4">Use PhonePe, GPay, or Paytm to pay. Then send the screenshot via WhatsApp.</p>
+      <a href="https://wa.me/918800302362" target="_blank" class="button">
+        Send Screenshot on WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <footer data-aos="fade-up">
+    <p>© 2025 Graphic WALA | Designed by Arpit Joshi</p>
+  </footer>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
